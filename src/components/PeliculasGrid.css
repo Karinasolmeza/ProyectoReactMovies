@@ -9,5 +9,5 @@
 @media (max-width:560px){
     .moviesGrid{
         grid-template-columns:100%
-};
-};
+}
+}
