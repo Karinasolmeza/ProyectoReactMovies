@@ -1,7 +1,7 @@
 import { PeliculasCard } from "./PeliculasCard";
 import "./PeliculasGrid.css"
 /*import peliculas from "../data/peliculas.json";*/
-import { Get } from "../../utils/httpCliente";
+import { get } from "../../utils/httpCliente";
 import { useState, useEffect } from "react";
 export const PeliculasGrid = () => {
     const [peliculas, setPelicula] = useState([]);
