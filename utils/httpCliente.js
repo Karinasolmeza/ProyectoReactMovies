@@ -8,5 +8,4 @@ export const get = (path)=>{
             "Content-Type": "application/json;charset=utf-8"
         }
     }).then((results)=>results.json())
-
-}
+} 
