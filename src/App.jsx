@@ -1,5 +1,6 @@
 import "./App.css"
 import { LandingPage } from "./pages/LandingPage";
+import { DetallePelicula } from "./pages/DetallePelicula"
 import {BrowserRouter,Routes,Route,Link} from "react-router-dom"
 export const App = ()=>{
   return(
@@ -11,8 +12,7 @@ export const App = ()=>{
       </header>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/pelicula" element="detalle de la pelicula" />
-   
+        <Route path="/pelicula/:peliculaId" element={<DetallePelicula/>}/>
       </Routes>
     </BrowserRouter>
   )
